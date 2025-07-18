@@ -3,5 +3,8 @@
 name = '6mlc3o'
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2025-03-28"
-pages_build_output_dir = "./build/client"
+main = "worker.ts"
 send_metrics = false
+
+[site]
+bucket = "./build/client"
